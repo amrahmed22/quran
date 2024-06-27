@@ -1,0 +1,356 @@
+.home {
+  height: 88vh;
+  background-image: url(../public/header-bg2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logoo {
+  margin-top: 50px;
+  width: 300px !important;
+  height: 300px !important;
+}
+
+
+
+.tall {
+  height: 88vh;
+}
+
+nav {
+  background-color: #071f2e;
+}
+
+.nav-bar {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  position: relative;
+  background-color: #071f2e;
+  padding: 20px 20px;
+}
+
+
+.menu {
+  display: flex;
+  width: auto;
+  margin: auto;
+}
+
+.menu li {
+  padding-left: 50px;
+}
+
+.menu li .nav-item {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  transition: 0.15s ease-in-out;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.menu li .nav-item::after {
+  content: "";
+  position: absolute !important;
+  bottom: -5px;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: #239fb8;
+  transition: 0.3s ease-in-out;
+}
+.active-link
+{
+   color: #239fb8 !important;
+  
+}
+.active-link::before
+{
+  content: "";
+  position: absolute !important;
+  bottom: -5px;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #239fb8;
+}
+
+
+.menu li .nav-item:hover {
+  color: #239fb8 !important;
+  cursor: pointer;
+}
+
+.menu li .nav-item:hover::after {
+  width: 100%;
+}
+
+.open-menu,
+.close-menu {
+  position: absolute;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: none;
+}
+
+.open-menu {
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+.close-menu {
+  top: 20px;
+  right: 20px;
+}
+
+#check {
+  display: none;
+}
+
+@media(max-width: 790px) {
+  .myName {
+    margin-top: 50px !important;
+  }
+
+  .shape::after {
+    width: 28% !important;
+    right: -7% !important;
+  }
+
+  .shape::before {
+    width: 28% !important;
+    left: -7% !important;
+  }
+
+  /* .ItemDetails .shape::after,
+  .ItemDetails .shape::before {
+    display: none !important;
+  } */
+
+  nav {
+    padding: 10px 0px !important;
+  }
+
+  .menu {
+    z-index: 999999999999 !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: #071f2e;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .menu li {
+    margin-top: 30px;
+  }
+
+  .menu li .nav-item {
+    padding: 10px;
+  }
+  .menu li {
+    padding-left: 0px;
+    font-size: 24px;
+  }
+
+  .open-menu,
+  .close-menu {
+    display: block;
+  }
+  .btn-scrollTop
+  {
+    bottom: 135px !important;
+    font-size: 40px !important;
+  }
+  .www
+  {
+    width: 75% !important;
+  }
+  
+
+}
+
+
+
+
+
+
+body {
+  direction: rtl;
+  background-image: url('../public/pattern.png');
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: cover;
+  background-color: #0c2e43 !important;
+}
+
+.bg-blue {
+  background-color: #071f2e !important;
+}
+
+.reciter-name {
+
+  transition: 0.5s !important;
+
+}
+
+.reciter-name:hover {
+  background-color: #239fb8 !important;
+  cursor: pointer;
+  transition: 0.5s !important;
+
+}
+
+.myName {
+  position: relative;
+  width: 70% !important;
+  border-right: none !important;
+}
+
+.myName:after {
+  content: "";
+  width: 20%;
+  height: 100%;
+  background: url("../nav-before.png") no-repeat 100%;
+  bottom: 0;
+  right: -8px;
+  position: absolute;
+}
+
+.myName::before {
+  content: "";
+  width: 20%;
+  height: 100%;
+  background: url("../nav-before.png") no-repeat 100%;
+  transform: rotate(180deg);
+  bottom: 0;
+  left: -8px;
+  position: absolute;
+}
+
+.shape {
+  position: relative;
+  overflow: hidden !important;
+  background: #071f2e;
+}
+
+.shape:after {
+  content: "";
+  width: 20%;
+  height: 100%;
+  background: url("../title-before.png") no-repeat 100%;
+  bottom: 0;
+  right: 20%;
+  position: absolute;
+}
+
+.shape::before {
+  content: "";
+  width: 20%;
+  height: 100%;
+  background: url("../title-before.png") no-repeat 100%;
+  transform: rotate(180deg);
+  top: 0;
+  left: 20%;
+  position: absolute;
+}
+
+
+.borderSecondColor {
+  border-top: #239fb8 solid 2px !important;
+}
+
+.border-blue {
+  border: #239fb8 solid 3px !important;
+
+}
+
+.ppp {
+  z-index: 5 !important;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #071f2e;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #239fb8;
+  border-radius: 5px;
+  height: 25%;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #239fb8;
+}
+
+.fixed-buttons {
+  position: fixed;
+  left: 0;
+  top: 55%;
+}
+
+::selection {
+  color: white;
+  background: #239fb8;
+}
+
+
+.btn-scrollTop {
+  position: fixed;
+  bottom: 30px;
+  font-size: 3rem;
+  z-index: 1;
+  cursor: pointer;
+  color: #239fb8;
+  right: 2%;
+  background: none;
+  border-radius: 50px;
+  padding: 0px;
+  border: none;
+  opacity: 0.4;
+  z-index: 9999;
+}
+
+
+
+.back {
+  position: fixed !important;
+  top: 10px !important;
+  left: 20px !important;
+  z-index: 9999;
+  opacity: 0.4;
+  
+}
+
+.open-icon
+{
+  font-size: 38px !important;
+}
+
+.close-icon
+{
+  font-size: 50px !important;
+}
