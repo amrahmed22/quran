@@ -20,7 +20,7 @@ const TadborItem = () => {
                     w.push(data.tadabor[i])
                 }
             }
-            console.log(w[4][0].id);
+            // console.log(w[4][0].id);
             for (let i = 0; i < w.length; i++) {
                 if (id == w[i][0].id) {
                     // console.log(w[i][0].video_url);
