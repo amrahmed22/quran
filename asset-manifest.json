@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/quran/static/css/main.58844cd9.css",
-    "main.js": "/quran/static/js/main.4279d1cb.js",
+    "main.css": "/quran/static/css/main.ce60a352.css",
+    "main.js": "/quran/static/js/main.a6d6fa3f.js",
     "static/media/rb_2149297441.png": "/quran/static/media/rb_2149297441.8768d718557869e920d0.png",
-    "static/media/header-bg2.png": "/quran/static/media/header-bg2.c31ed6d6d62ece0be3b4.png",
     "static/media/fa-solid-900.ttf": "/quran/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
     "static/media/Montserrat-Arabic-Regular-400.otf": "/quran/static/media/Montserrat-Arabic-Regular-400.851c241b4d7c04079e14.otf",
     "static/media/fa-brands-400.ttf": "/quran/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
     "static/media/pattern.png": "/quran/static/media/pattern.069f39a197e0cba8a801.png",
     "static/media/fa-solid-900.woff2": "/quran/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/tq-feat-img1.png": "/quran/static/media/tq-feat-img1.444efa3e2e9622508df8.png",
     "static/media/fa-brands-400.woff2": "/quran/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
     "static/media/fa-regular-400.ttf": "/quran/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
-    "static/media/logo.png": "/quran/static/media/logo.d06b07243842b92dc884.png",
+    "static/media/tq-feat-bg.jpg": "/quran/static/media/tq-feat-bg.8c884dd04d6c4bc34ad5.jpg",
     "static/media/fa-regular-400.woff2": "/quran/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
     "static/media/fa-v4compatibility.ttf": "/quran/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
     "static/media/fa-v4compatibility.woff2": "/quran/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/quran/index.html",
-    "main.58844cd9.css.map": "/quran/static/css/main.58844cd9.css.map",
-    "main.4279d1cb.js.map": "/quran/static/js/main.4279d1cb.js.map"
+    "main.ce60a352.css.map": "/quran/static/css/main.ce60a352.css.map",
+    "main.a6d6fa3f.js.map": "/quran/static/js/main.a6d6fa3f.js.map"
   },
   "entrypoints": [
-    "static/css/main.58844cd9.css",
-    "static/js/main.4279d1cb.js"
+    "static/css/main.ce60a352.css",
+    "static/js/main.a6d6fa3f.js"
   ]
 }
