@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/quran/static/css/main.696400da.css",
-    "main.js": "/quran/static/js/main.79e25868.js",
+    "main.css": "/quran/static/css/main.6f2b9f64.css",
+    "main.js": "/quran/static/js/main.2ae0519e.js",
     "static/media/rb_2149297441.png": "/quran/static/media/rb_2149297441.8768d718557869e920d0.png",
     "static/media/fa-solid-900.ttf": "/quran/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
     "static/media/Montserrat-Arabic-Regular-400.otf": "/quran/static/media/Montserrat-Arabic-Regular-400.851c241b4d7c04079e14.otf",
@@ -18,11 +18,11 @@
     "static/media/fa-v4compatibility.ttf": "/quran/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
     "static/media/fa-v4compatibility.woff2": "/quran/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/quran/index.html",
-    "main.696400da.css.map": "/quran/static/css/main.696400da.css.map",
-    "main.79e25868.js.map": "/quran/static/js/main.79e25868.js.map"
+    "main.6f2b9f64.css.map": "/quran/static/css/main.6f2b9f64.css.map",
+    "main.2ae0519e.js.map": "/quran/static/js/main.2ae0519e.js.map"
   },
   "entrypoints": [
-    "static/css/main.696400da.css",
-    "static/js/main.79e25868.js"
+    "static/css/main.6f2b9f64.css",
+    "static/js/main.2ae0519e.js"
   ]
 }
